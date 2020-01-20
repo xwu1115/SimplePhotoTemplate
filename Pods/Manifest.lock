@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (4.0.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - SnapKit (~> 4.0.0)
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: de85a0599a6b8314f4bbe19745dd0c056120340c
+
+COCOAPODS: 1.8.4

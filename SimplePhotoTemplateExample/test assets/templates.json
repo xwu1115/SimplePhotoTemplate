@@ -1,0 +1,15 @@
+{
+  "templates": [
+    {
+      "name": "0",
+      "background": "default.jpg",
+      "texts": [
+          {
+              "font": "HelveticaNeue-Bold",
+              "size": 24,
+              "color": "ffffff"
+          }
+      ]
+    }
+  ]
+}

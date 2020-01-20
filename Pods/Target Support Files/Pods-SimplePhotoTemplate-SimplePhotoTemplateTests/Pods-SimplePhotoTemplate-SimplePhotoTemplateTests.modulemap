@@ -1,0 +1,6 @@
+framework module Pods_SimplePhotoTemplate_SimplePhotoTemplateTests {
+  umbrella header "Pods-SimplePhotoTemplate-SimplePhotoTemplateTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

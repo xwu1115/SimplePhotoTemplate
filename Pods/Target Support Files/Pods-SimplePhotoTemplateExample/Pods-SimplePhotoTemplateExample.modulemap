@@ -1,0 +1,6 @@
+framework module Pods_SimplePhotoTemplateExample {
+  umbrella header "Pods-SimplePhotoTemplateExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

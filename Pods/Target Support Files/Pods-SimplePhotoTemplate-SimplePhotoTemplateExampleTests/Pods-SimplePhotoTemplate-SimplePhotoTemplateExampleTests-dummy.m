@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SimplePhotoTemplate_SimplePhotoTemplateExampleTests : NSObject
+@end
+@implementation PodsDummy_Pods_SimplePhotoTemplate_SimplePhotoTemplateExampleTests
+@end
