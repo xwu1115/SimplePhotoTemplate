@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SimplePhotoTemplate"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "An edit tool for adding texts and changing background for a photo."
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ It's a simple edit tool for adding texts, images and changing background on a ph
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "11.0"
   spec.swift_version = "4.0"
 
   #  When using multiple platforms
