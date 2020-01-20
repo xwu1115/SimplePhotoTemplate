@@ -99,10 +99,11 @@ public class TemplateView: UIView {
     
     public func add(text: Text) {
         let textField = TemplateTextView(text: text)
+        let size = textField.sizeThatFits(CGSize(width: TemplateTextView.maxWidth, height: 44))
         textField.frame = CGRect(x: frame.width * 0.5,
                                  y: frame.height * 0.5,
-                                 width: TemplateTextView.maxWidth,
-                                 height:44)
+                                 width: size.width,
+                                 height:size.height)
         add(textField: textField)
     }
     

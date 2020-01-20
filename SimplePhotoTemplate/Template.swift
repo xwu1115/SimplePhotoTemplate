@@ -13,6 +13,10 @@ public struct Templates: Codable {
     enum CodingKeys: String, CodingKey {
         case templates = "templates"
     }
+    
+    public init(templates: [Template]) {
+        self.templates = templates
+    }
 }
 
 public struct Template: Codable {
@@ -24,6 +28,12 @@ public struct Template: Codable {
         case name = "name"
         case texts = "texts"
         case background = "background"
+    }
+    
+    public init(name: String, background: String, texts: [Text]) {
+        self.name = name
+        self.background = background
+        self.texts = texts
     }
 }
 
