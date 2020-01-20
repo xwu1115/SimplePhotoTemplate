@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SimplePhotoTemplate"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "An edit tool for adding texts and changing background for a photo."
 
   # This description is used to generate tags and improve search results.
